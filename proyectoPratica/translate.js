@@ -37,13 +37,17 @@ const translations = {
     "Mensajes diarios": "Daily Messages",
     "Soporte disponible": "Support Available"
 };
-
+ //lo mejore pq cuando le daba click a traducir se me juntaba algunas cosas //
 function translateToEnglish() {
     const elements = document.querySelectorAll('h1, h2, h3, h5, p, button, a, li');
     elements.forEach(element => {
         const text = element.textContent.trim();
         if (translations[text]) {
             element.textContent = translations[text]; // Cambia solo el texto
+        } else {
+            // Handle cases where the text may contain multiple parts that need translation
+            let translatedText = text.split(' ').map(word => translations[word] || word).join(' ');
+            element.textContent = translatedText;
         }
     });
 }
