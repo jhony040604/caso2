@@ -1,0 +1,499 @@
+.logo {
+    width: 50px; /* Ajusta el tamaño según necesites */
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.feature-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.small-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.blue-banner {
+    background-color: #007BFF;
+}
+
+.blue-banner ul {
+    padding-left: 20px;
+}
+
+.blue-banner ul li {
+    margin-bottom: 5px;
+}
+
+.footer .col-md-4 {
+    text-align: left;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.powering-collaboration {
+    background-color: #001F4D;
+    color: white;
+    padding: 60px 0;
+}
+
+.small-card {
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    max-width: 250px;
+    margin: auto;
+    transform: rotate(-5deg);
+}
+
+.small-card:nth-child(2) {
+    transform: rotate(5deg);
+}
+
+.small-card-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.small-card-body {
+    padding: 10px;
+}
+
+.small-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #001F4D;
+}
+
+.small-card-text {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.features p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.feature-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.features h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Blue Banner Section */
+.blue-banner {
+    background-color: #007BFF;
+    color: white;
+    padding: 60px 0;
+}
+
+.blue-banner h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blue-banner p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.blue-banner ul {
+    padding-left: 20px;
+}
+
+.blue-banner ul li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Powering Collaboration Section */
+.powering-collaboration {
+    background-color: #001F4D;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.small-card {
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    max-width: 250px;
+    margin: auto;
+    transform: rotate(-5deg);
+}
+
+.small-card:nth-child(2) {
+    transform: rotate(5deg);
+}
+
+.small-card-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.small-card-body {
+    padding: 10px;
+}
+
+.small-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #001F4D;
+    margin-bottom: 10px;
+}
+
+.small-card-text {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.testimonials .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.testimonials .card-body {
+    padding: 20px;
+}
+
+.testimonials .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.testimonials .card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.faq .accordion-button {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.faq .accordion-body {
+    font-size: 0.9rem;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contact .form-control {
+    margin-bottom: 15px;
+}
+
+.contact .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 60px 0;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.footer p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Botón de Volver al Inicio */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #ffc107;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+#myBtn:hover {
+    background-color: #e0a800;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .features h2 {
+        font-size: 1.5rem;
+    }
+
+    .features p {
+        font-size: 0.9rem;
+    }
+
+    .small-card {
+        margin: 10px 0;
+    }
+
+    .testimonials .card {
+        margin-bottom: 15px;
+    }
+
+    .footer .col-md-4 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Metrics Section */
+.metrics i {
+    color: #007BFF;
+}
+
+.metrics h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.metrics p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Integrations Section */
+.integrations {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.integrations h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.integrations p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.integration-logo {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.7;
+}
+
+.integration-logo:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Team Section */
+.team-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Blog Preview Section */
+.blog-preview .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.blog-preview .card:hover {
+    transform: translateY(-10px);
+}
+
+.blog-preview .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Clients Section */
+.clients img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+/* Clients Section */
+.clients {
+    padding: 60px 0;
+}
+
+.clients h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.client-logo {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.7;
+}
+
+.client-logo:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
